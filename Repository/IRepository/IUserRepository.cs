@@ -2,7 +2,7 @@
 using HMS_API.Models.Dto;
 
 namespace HMS_API.Repository.IRepository
-{
+{   
     public interface IUserRepository
     {
         bool IsUniqueUser(string mobilenumber);

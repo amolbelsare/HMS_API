@@ -14,6 +14,7 @@ namespace HMS_API.Models
         public string? gender { get; set; }
         public DateTime dob { get; set; }
         public int age { get; set; }
+        public string mobile { get; set; }
         public string? email { get; set; }
         public string? address { get; set; }
         public string? city { get; set; }
